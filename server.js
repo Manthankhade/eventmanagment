@@ -18,9 +18,10 @@ app.use(session({
 }));
 
 // MongoDB Connection
-mongoose.connect("mongodb+srv://manthan:MyPass123@cluster0.mongodb.net/loginDB?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://manthankhade2710_db_user:Manthan2710@cluster0.ngbeq3u.mongodb.net/loginDB?retryWrites=true&w=majority")
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
+
 
 
 // Routes
