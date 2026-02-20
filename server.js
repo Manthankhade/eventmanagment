@@ -48,7 +48,12 @@ app.get("/dashboard.html", (req, res) => {
 app.get("/about.html", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "about.html"));
 });
-
+app.get("/contact.html", (req, res) => {
+  res.sendFile(path.join(__dirname, "views", "contact.html"));
+});
+app.get("/services.html", (req, res) => {
+  res.sendFile(path.join(__dirname, "views", "services.html"));
+});
 
 
 // Signup
