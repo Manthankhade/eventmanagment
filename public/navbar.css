@@ -37,31 +37,3 @@
     .navbar a:hover {
       background-color: #fb6363;
     }
-
-.container {
-    background: white;
-    padding: 60px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-    margin: 213px auto 0 auto; /* center the container horizontally */
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background: #fb6363;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #fc5151;
-}
