@@ -41,6 +41,16 @@ app.get("/dashboard", (req, res) => {
     res.sendFile(__dirname + "/views/dashboard.html");
 });
 
+// dasboard route added here 
+app.get("/dashboard.html", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "dashboard.html"));
+});
+app.get("/about.html", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "about.html"));
+});
+
+
+
 // Signup
 app.post("/signup", async (req, res) => {
     const { username, email, password } = req.body;
